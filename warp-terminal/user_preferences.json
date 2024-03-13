@@ -1,0 +1,31 @@
+{
+  "prefs": {
+    "AIAssistantRequestLimitInfo": "{\"limit\":100,\"num_requests_used_since_refresh\":0,\"next_refresh_time\":\"2024-03-10T00:04:28.418763Z\"}",
+    "ExperimentId": "f2f2bb05-f1b6-47b5-b078-71c9c7ed4d32",
+    "HonorPS1": "true",
+    "SystemTheme": "false",
+    "WelcomeTipsFeaturesUsed": "[{\"Action\":\"ThemePicker\"},{\"Hint\":\"BlockSelect\"},{\"Action\":\"AiCommandSearch\"},{\"Action\":\"OpenWarpDrive\"},{\"Action\":\"CommandSearch\"},{\"Hint\":\"CreateBlock\"},{\"Action\":\"SplitPane\"},{\"Hint\":\"BlockAction\"},{\"Action\":\"WarpAI\"}]",
+    "AliasExpansionBannerSeen": "true",
+    "AutosuggestionAcceptedCount": "2",
+    "FontName": "\"JetBrains Mono NL\"",
+    "EmacsBindingsBannerState": "\"Dismissed\"",
+    "VimModeEnabled": "false",
+    "ReceivedReferralTheme": "\"Inactive\"",
+    "ShouldDimInactivePanes": "true",
+    "Theme": "\"SentReferralReward\"",
+    "OverrideOpacity": "70",
+    "SavedPrompt": "{\"CustomChipSelection\":{\"chips\":[{\"chip\":\"Username\",\"config\":{}},{\"chip\":\"CondaEnvironment\",\"config\":{}},{\"chip\":\"VirtualEnvironment\",\"config\":{}},{\"chip\":\"RemoteLogin\",\"config\":{}},{\"chip\":\"WorkingDirectory\",\"config\":{}},{\"chip\":\"ShellGitBranch\",\"config\":{}},{\"chip\":\"GitDirtyFiles\",\"config\":{}},{\"chip\":\"KubernetesContext\",\"config\":{}},{\"chip\":\"Date\",\"config\":{}},{\"chip\":\"Time24\",\"config\":{}}]}}",
+    "WelcomeTipsCompleted": "true",
+    "ChangelogVersions": "{\"v0.2024.03.05.08.02.stable_01\":true}",
+    "StartupShellOverride": "\"zsh\"",
+    "Shortcuts": "true",
+    "ReferralThemeActive": "true",
+    "Spacing": "\"Normal\"",
+    "UseAudibleBell": "true",
+    "WorkflowsBoxOpen": "true",
+    "FontSize": "12.0",
+    "InputMode": "\"PinnedToBottom\"",
+    "HasAutoOpenedWelcomeFolder": "true",
+    "Notifications": "{\"mode\":\"Enabled\",\"is_long_running_enabled\":true,\"long_running_threshold\":{\"secs\":30,\"nanos\":0},\"is_password_prompt_enabled\":true}"
+  }
+}
