@@ -13,6 +13,7 @@
   "conform.nvim": { "branch": "master", "commit": "f9523f75134614fc0eff29c2377ed36603a1b0aa" },
   "dashboard-nvim": { "branch": "master", "commit": "39f308a0b845b8da46f83c8a2d69f0191d4b7a8f" },
   "dressing.nvim": { "branch": "master", "commit": "18e5beb3845f085b6a33c24112b37988f3f93c06" },
+  "edgedb-vim": { "branch": "master", "commit": "7f2516bec3a5ad137347fb703d0b2c88f1478f5b" },
   "friendly-snippets": { "branch": "main", "commit": "dcd4a586439a1c81357d5b9d26319ae218cc9479" },
   "headlines.nvim": { "branch": "master", "commit": "618ef1b2502c565c82254ef7d5b04402194d9ce3" },
   "indent-blankline.nvim": { "branch": "master", "commit": "3d08501caef2329aba5121b753e903904088f7e6" },
