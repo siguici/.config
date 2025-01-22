@@ -1,0 +1,7 @@
+astro/
+composer/vendor/
+composer/keys.*
+configstore/
+dconf/
+gh/
+gitmoji-nodejs/
