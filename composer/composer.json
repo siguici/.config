@@ -1,5 +1,7 @@
 {
     "require": {
-        "laravel/installer": "^5.11"
+        "laravel/installer": "^5.11",
+        "sikessem/installer": "^0.0.0",
+        "philang/phi": "dev-main"
     }
 }

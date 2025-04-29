@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "14befbd4bb1237fe8664a94ec20b968a",
+    "content-hash": "e2fb2b8973a6aaf53dacb0d2c37df992",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -728,6 +728,203 @@
             "time": "2024-12-27T09:25:35+00:00"
         },
         {
+            "name": "nunomaduro/termwind",
+            "version": "v2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nunomaduro/termwind.git",
+                "reference": "52915afe6a1044e8b9cee1bcff836fb63acf9cda"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/52915afe6a1044e8b9cee1bcff836fb63acf9cda",
+                "reference": "52915afe6a1044e8b9cee1bcff836fb63acf9cda",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": "^8.2",
+                "symfony/console": "^7.1.8"
+            },
+            "require-dev": {
+                "illuminate/console": "^11.33.2",
+                "laravel/pint": "^1.18.2",
+                "mockery/mockery": "^1.6.12",
+                "pestphp/pest": "^2.36.0",
+                "phpstan/phpstan": "^1.12.11",
+                "phpstan/phpstan-strict-rules": "^1.6.1",
+                "symfony/var-dumper": "^7.1.8",
+                "thecodingmachine/phpstan-strict-rules": "^1.0.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Termwind\\Laravel\\TermwindServiceProvider"
+                    ]
+                },
+                "branch-alias": {
+                    "dev-2.x": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Functions.php"
+                ],
+                "psr-4": {
+                    "Termwind\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nuno Maduro",
+                    "email": "enunomaduro@gmail.com"
+                }
+            ],
+            "description": "Its like Tailwind CSS, but for the console.",
+            "keywords": [
+                "cli",
+                "console",
+                "css",
+                "package",
+                "php",
+                "style"
+            ],
+            "support": {
+                "issues": "https://github.com/nunomaduro/termwind/issues",
+                "source": "https://github.com/nunomaduro/termwind/tree/v2.3.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/paypalme/enunomaduro",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/nunomaduro",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/xiCO2k",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-11-21T10:39:51+00:00"
+        },
+        {
+            "name": "philang/phi",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/philang-org/phi-php.git",
+                "reference": "6e6a917b6c17d6ebb2c83c2b3a4b4a39480c9165"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/philang-org/phi-php/zipball/6e6a917b6c17d6ebb2c83c2b3a4b4a39480c9165",
+                "reference": "6e6a917b6c17d6ebb2c83c2b3a4b4a39480c9165",
+                "shasum": ""
+            },
+            "require": {
+                "ext-readline": "*",
+                "php": "^8.4"
+            },
+            "require-dev": {
+                "siguici/php-devtools": "^1.1"
+            },
+            "default-branch": true,
+            "bin": [
+                "./phi.php"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/core/phi.php"
+                ],
+                "psr-4": {
+                    "Phi\\": [
+                        "src/core/",
+                        "src/components/"
+                    ],
+                    "Phi\\Di\\": "src/di/",
+                    "Phi\\Pm\\": "src/pm/",
+                    "Phi\\Exceptions\\": "src/exceptions/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sigui Kessé Emmanuel",
+                    "email": "siguici@proton.me",
+                    "homepage": "https://github.com/siguici"
+                }
+            ],
+            "description": "Phi φ - A modern PHP superset with strong typing and OOP enhancements",
+            "homepage": "https://siguici.github.io/phi",
+            "keywords": [
+                "OOP",
+                "archiver",
+                "array-config",
+                "binary",
+                "blade-template",
+                "cli-app",
+                "compiler",
+                "compressor",
+                "dotenv",
+                "emit-event",
+                "env",
+                "event-emitter",
+                "event-listener",
+                "events",
+                "fetch",
+                "ftp-client",
+                "ftp-server",
+                "get-files",
+                "ini",
+                "input",
+                "installer",
+                "let var",
+                "listen-event",
+                "oriented-object-programming",
+                "output",
+                "parser",
+                "path-parser",
+                "path-parsing",
+                "phi",
+                "php-transpiler",
+                "programming-language",
+                "put-files",
+                "query-parser",
+                "query-parsing",
+                "runtime",
+                "scripting-language",
+                "stream",
+                "templating-engine",
+                "type",
+                "typesafe",
+                "uri-parser",
+                "uri-parsing"
+            ],
+            "support": {
+                "chat": "https://github.com/orgs/siguici/discussions",
+                "issues": "https://github.com/siguici/phi/issues",
+                "source": "https://github.com/siguici/phi",
+                "wiki": "https://github.com/siguici/phi/wiki"
+            },
+            "time": "2025-04-23T14:37:24+00:00"
+        },
+        {
             "name": "psr/clock",
             "version": "1.0.0",
             "source": {
@@ -878,6 +1075,146 @@
                 "source": "https://github.com/php-fig/simple-cache/tree/3.0.0"
             },
             "time": "2021-10-29T13:26:27+00:00"
+        },
+        {
+            "name": "sikessem/console",
+            "version": "v0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sikessem/Console.git",
+                "reference": "1c98b600c02dd9e7d1c9862fb45b5eddb93fd39a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sikessem/Console/zipball/1c98b600c02dd9e7d1c9862fb45b5eddb93fd39a",
+                "reference": "1c98b600c02dd9e7d1c9862fb45b5eddb93fd39a",
+                "shasum": ""
+            },
+            "require": {
+                "nunomaduro/termwind": "^2.3",
+                "php": "^8.2",
+                "symfony/process": "^7.2"
+            },
+            "require-dev": {
+                "sikessem/devtools": "^1.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sikessem\\Console\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "SIGUI Kessé Emmanuel",
+                    "email": "contact@sigui.ci",
+                    "homepage": "https://sigui.ci"
+                }
+            ],
+            "description": "The Sikessem console allows you to develop and test command line applications.",
+            "homepage": "https://packagist.org/packages/sikessem/console",
+            "keywords": [
+                "cli",
+                "command-line",
+                "console",
+                "console-application",
+                "php",
+                "sikessem",
+                "termwind"
+            ],
+            "support": {
+                "chat": "https://github.com/orgs/sikessem/discussions",
+                "email": "support@sikessem.com",
+                "issues": "https://github.com/sikessem/console/issues",
+                "source": "https://github.com/sikessem/console"
+            },
+            "time": "2025-04-17T10:24:29+00:00"
+        },
+        {
+            "name": "sikessem/installer",
+            "version": "v0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sikessem/Installer.git",
+                "reference": "a7fd8647df940b5192545358a3bce8770b8431ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sikessem/Installer/zipball/a7fd8647df940b5192545358a3bce8770b8431ba",
+                "reference": "a7fd8647df940b5192545358a3bce8770b8431ba",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2",
+                "sikessem/console": "^0.2"
+            },
+            "require-dev": {
+                "sikessem/devtools": "^1.3"
+            },
+            "bin": [
+                "bin/sikessem",
+                "bin/ske"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Sikessem\\Installer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "SIGUI Kessé Emmanuel",
+                    "email": "contact@sigui.ci",
+                    "homepage": "https://sigui.ci"
+                }
+            ],
+            "description": "Sikessem's command-line project management application.",
+            "homepage": "https://packagist.org/packages/sikessem/installer",
+            "keywords": [
+                "Devtools",
+                "cli",
+                "command-line",
+                "composer",
+                "console",
+                "console-application",
+                "dependency-manager",
+                "installer",
+                "npm",
+                "package-manager",
+                "php",
+                "pnpm",
+                "sikessem",
+                "ske",
+                "termwind",
+                "test-tools",
+                "testing-tools",
+                "yarn"
+            ],
+            "support": {
+                "chat": "https://github.com/orgs/sikessem/discussions",
+                "email": "support@sikessem.com",
+                "issues": "https://github.com/sikessem/installer/issues",
+                "source": "https://github.com/sikessem/installer"
+            },
+            "time": "2025-04-17T11:09:48+00:00"
         },
         {
             "name": "symfony/clock",
@@ -2053,7 +2390,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "philang/phi": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {},
