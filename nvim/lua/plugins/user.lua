@@ -87,4 +87,28 @@ return {
       )
     end,
   },
+
+  {
+    "AstroNvim/astrocore",
+    ---@type AstroCoreOpts
+    opts = {
+      autocmds = {
+        auto_save_on_insert_leave = {
+          {
+            event = "InsertLeave",
+            desc = "Save file automatically when leaving insert mode",
+            callback = function(args)
+              local buf = args.buf
+              -- Only save if the buffer is modified and linked to a valid file
+              if vim.bo[buf].modified and vim.bo[buf].buftype == "" and vim.fn.expand("%") ~= "" then
+                vim.api.nvim_buf_call(buf, function()
+                  vim.cmd("silent! write")
+                end)
+              end
+            end,
+          },
+        },
+      },
+    },
+  },
 }
